@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;/*Sem isso só a caixa do texto já terá 400 px*/
+}
+
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+.abertura{
+    padding: 1em;
+    background-color: pink;
+}
+
+h1{
+    max-width: 620px;
+    font-size: 3rem;
+    margin: 4rem auto;
+    text-align: center;
+    background-color: tomato;
+}
+
+.corpo-texto{
+    max-width: 580px;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.area-grafico {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.area-grafico > div{
+    width: 200px;
+    border: 1px solid hotpink;
+    height: 400px;
+
+}
+
+/*div{
+    border: 1px dotted red;
+    width: 400px; /*contando de uma borda a outra*/
+    /*padding: 50px; /*centralizar a caixinha 50px de kd borda*/
+/*}*/
+
+/*p{
+    border: 1px dotted dodgerblue;
+    /*max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;*/
+    /*margin: 50px;
+    overflow: hidden; /*ou scroll*/
+/*}*/
+
